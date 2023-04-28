@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+body {
+    margin: 0;
+}
+.header-image {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+}
+h1 {
+    color: #4F3824;
+    text-align: center;
+    font-family: 'Tilt Prism';
+}
+h2 {
+    color: darkred;
+    font-family: 'Tilt Prism';
+    text-align: center;
+}
+h3 {
+    margin: 0px;
+    font-size: 20px;
+}
+a:link {
+    color: #221D23;
+}
+a:visited {
+    color: #DDB967;
+}
+a:hover {
+    color: #D1603D;
+}
+a:active {
+    color: #D0E37F;
+}
+main {
+    max-width: 1400px;
+    margin: 20px auto;
+}
+main ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+#intro {
+    padding: 30px
+}
+i.fa {
+    color: #D1603D;
+    font-size: 100px;
+    display: block;
+    text-align: right;
+    padding: 20px 0px 0px 20px;
+}
+.gallery .preview {
+    width: 100%;
+    height: auto;
+}
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0px;
+}
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+p {
+    font-size: 20px;
+    color: #4F3824;
+}
+/*Navigation Bar*/
+
+nav {
+    background-color: #4F3824;
+    border-top: 4px solid #DDB967;
+    border-bottom: 4px solid #DDB967;
+    font-family: 'Sora';
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+nav a:link {
+    color: #D1603D;
+}
+nav a:visited {
+    color: #DDB967;
+}
+nav a:hover {
+    color: #D0E37F;
+}
+nav a:active {
+    color: #221D23;
+}
+footer {
+    font-family: 'Tilt Prism';
+    border-top: 1px solidgray;
+    padding: 10px;
+    text-align: left;
+}
+.foot1 {
+    background-color: #DDB967;
+    padding: 15px 0px;
+}
+.foot1 > .row {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+.foot2 {
+    text-align: center;
+}
+footer .fa {
+    color: #D1603D;
+    font-size: 20px;
+    padding: 0px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+.footer-right{
+	text-align: right;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1 {
+    font-size: 4em;
+}
+/* CSS Adjustments for Tablets */
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 1.8em;
+    }
+}
+/* CSS Adjustments for Smartphones */
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 576px){
+	.footer-right {
+		text-align: left;
+	}
+	.contact-links {
+		display: flex;
+	}
+	.contact-links i {
+		order: 0;
+		margin-right: 10px;
+	}
+	.contact-links a {
+		order: 1;
+	}
+}

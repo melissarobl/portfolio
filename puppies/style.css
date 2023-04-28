@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+body{
+	font-family: 'Archivo', sans-serif;
+	margin: 0;
+	background-color: #786F52;
+}
+h1 {
+	color: #090446;
+	text-align: center;
+	text-shadow: 3px 3px 3px #F71735;
+}
+h2 { 
+	color: #090446;
+   	font-family: 'Archivo', cursive;
+   	text-align: left;
+   	font-size: 30px
+}
+h3 {
+	color: #F71735;
+	font-family: 'Archivo', cursive;
+	text-align: left;
+	font-size: 20px;
+	text-shadow: 3px 3px 3px #090446;
+}
+#topPic{
+	color: #F71735;
+	font-family: 'Archivo', cursive;
+	text-align: left;
+	font-size: 20px;
+}
+h4{
+	color: #FEB95F;
+	font-size: 15px;
+}
+a:link{
+	color: #F71735;
+	text-shadow: 3px 3px 3px #090446;
+}
+a:visited{
+	color: #090446;
+}
+a:hover{
+	color: #C2095A;
+}
+a:active{
+	color: #FEB95F;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+.home-hero{
+	background-image:url(images/header.jpg);
+	height: 475px;
+	background-size:cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+	border-radius: 25px;
+}
+img{
+	display: block;
+	margin:0 auto;
+	border-radius: 25px;
+}
+blockquote{
+	color: #090446;
+	border-style: dotted;
+	border-width: 10px;
+	border-radius: 25px;
+	border-color: #FEB95F;
+	font-size: 25px;
+	padding: 15px 15px 0px 15px;
+	margin: 15px;
+	text-align: center;
+	font-family: 'Archivo';
+}
+i.fa{
+	color: #FEB95F;
+	font-size: 1em;
+}
+footer .fa{
+	color: #C2095A;
+	font-size: 2em;
+}
+
+/*Navigation Bar*/
+nav{
+	background-color: #090446;
+	border-top: 2px solid #F71735;
+	border-bottom: 2px solid #F71735;
+}
+nav ul{
+	list-style-type: none;
+	text-align:center;
+	margin: 10px;
+	padding-inline-start: 0px;
+}
+nav li{
+	display:inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: #F71735;
+}
+nav a:visited{
+	color: #FEB95F;
+}
+nav a:hover{
+	color: #786F52;
+}
+nav a:active {
+	color: #FFBC65;
+}
+footer{
+	text-align: center;
+	border-top: 1px solidgray;
+	padding: 10px;
+	background-color: #090446;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
