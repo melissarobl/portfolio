@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Luckiest+Guy&display=swap');
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+header{
+		background-color: #262626;
+}
+body{
+	font-family: 'Cabin', sans-serif;
+	margin: 0;
+}
+.logo{
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+		height: auto;
+}
+h1{
+	color:#FEE800;
+	text-align: center;
+	margin-bottom: 0em;
+}
+h2 { 
+		color: #FEE800;
+   	font-family: 'Luckiest Guy', cursive;
+   	text-align: center;
+   	font-size: 30px;
+   	margin: 20px;
+}
+h3{
+	font-size: 18px;
+	text-align: center;
+}
+h3.degree{
+	text-align: left;
+	font-size: 18px;
+	color: #262626;
+	margin-left: 7px;
+	text-decoration: underline;
+}
+h3.objective{
+	text-decoration: none;
+	text-align:left;
+	font-size: 18px;
+	color: #262626;
+	margin-left: 7px;
+}
+p{
+	text-align: center;
+	padding: 5px;
+}
+p.hello{
+	font-size: 36px;
+	text-align: left;
+}
+p.dream1{
+	font-size: 16px;
+	text-align: left;
+}
+p.dream2{
+	font-size: 16px;
+	text-align: left;
+	max-width: 500px;
+}
+p.contact-links{
+	line-height: 0px;
+}
+p.skillz{
+	color:#FEE800;
+	background-color: #262626;
+}
+p.skillz2{
+	color:#FEE800;
+	text-decoration: underline;
+}
+p.skills3{
+	color:#262626;
+}
+p.row2{
+	border:none;
+	text-align:right;
+}
+.lineup{
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.credentials{
+	margin-bottom: 40px;
+}
+.lines{
+	border-bottom: solid;
+	border-color: #FEE800;
+	border-width: 2px;
+	padding: 10px;
+}
+body.resume-view{
+	background-color: #262626;
+}
+.row{
+	text-align: center;
+	font-size: 18px;
+}
+.row11{
+	margin: 10px 4px 16px 4px;
+	text-decoration-style: bold;
+}
+.container{
+	max-width: 1000px;
+	background-color:#FFFFFF;
+}
+.row21{
+	color:#262626;
+	margin: 4px;
+	padding: 7px;
+}
+.credentials .credential .row21{
+	background-color: #f2f2f2;
+	height: 100%;
+}
+p.study{
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+p.school{
+	text-align: left;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+hr{
+	border-color: #FEE800;
+}
+a:link{
+	color: #262626;
+}
+a:visited{
+	color: #262626;
+}
+a:hover{
+	color:#FEE800;
+}
+a:active{
+	color: #B6E5F7;
+}
+main{
+	max-width: 1300px;
+	margin: 20px auto;
+}
+main ul{
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-top: 0px;
+}
+div.lineup{
+	display: flex;
+	justify-content: center;
+ 	align-content: center;
+  flex-direction: column;
+  max-width: 1500px;
+}
+div.credentials{
+	max-width: 1500px;
+}
+div.credentials.first{
+	margin-bottom: 20px;
+}
+
+/*Navigation Bar*/
+nav{
+	background-color: #FEE800;
+	border-top: 2px solid #262626;
+	border-bottom: 2px solid #262626;
+}
+nav ul{
+	list-style-type: none;
+	text-align:center;
+	margin: 10px;
+	padding-inline-start: 0px;
+}
+nav li{
+	display:inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color:#262626;
+}
+nav a:visited{
+	color:#262626;
+}
+nav a:hover{
+	color: #2946D7
+}
+nav a:active{
+	color: #000000;
+}
+footer{
+	border-top: solid 1px #F2F2F2;
+	padding: 0px;
+	text-align: left;
+	color:#FEE800;
+	width: 100%;
+}
+.foot1 {
+    background-color: #262626;
+    padding: 15px 0px 5px 50px;
+    max-width: 100%;
+}
+.foot1 > .row {
+    width: 100%;
+}
+.foot2{
+    text-align: center;
+		color:#262626;
+    background-color: #FEE800;
+}
+p.explain{
+		text-size: 10x;
+}
+footer a:link{
+		color:#FEE800;
+}
+footer a:visited{
+		color:#FEE800;
+}
+footer a:hover{
+		color:#2946D7;
+}
+footer .fa {
+    color: #FEE800;
+    display: inline-block;
+    width: 18px;
+    text-align: center;
+}
+.footer-right{
+		text-align: center;
+		display: inline-block;
+		margin: 0 auto;
+}
+.footer-left{
+	display: inline-block;
+	margin: 0 auto;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-size: 4em;
+ }
+.mobile{
+	display:none;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+	p.row2{
+		text-align: left;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+	p.skillz{
+		word-break: break-word;
+	}
+	p.skillz2{
+		word-break: break-word;
+	}
+	p.achieve{
+		word-break: break-word;
+	}
+	p.hello{
+		margin: 10px;
+	}
+	p.dream1{
+		margin: 10px;
+	}
+	p.dream2{
+		margin: 10px;
+	}
+	p.row2{
+		margin: 10px;
+	}
+	/* JavaScript Game changes for mobile */
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
